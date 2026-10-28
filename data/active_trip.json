@@ -1,0 +1,475 @@
+{
+  "id": "jeju-family-2026",
+  "title": "2026 사랑하는 우리 가족 가을 여행 🍁",
+  "destination": "제주특별자치도",
+  "startDate": "2026-11-05",
+  "endDate": "2026-11-08",
+  "totalBudget": 2800000,
+  "currency": "KRW",
+  "notes": "부모님(할머니)과 아이들(초등생+5세)이 함께하는 여유로운 3박 4일 일정. 하루 2~3곳 위주로 여유롭게 이동하기.",
+  "members": [
+    {
+      "id": "m-dad",
+      "name": "아빠",
+      "role": "dad",
+      "ageGroup": "adult",
+      "color": "#2563eb",
+      "notes": "운전 & 렌터카 인수 담당"
+    },
+    {
+      "id": "m-mom",
+      "name": "엄마",
+      "role": "mom",
+      "ageGroup": "adult",
+      "color": "#db2777",
+      "notes": "예산 총괄 & 맛집 리스트업"
+    },
+    {
+      "id": "m-grandma",
+      "name": "할머니",
+      "role": "grandparent",
+      "ageGroup": "senior",
+      "color": "#7c3aed",
+      "notes": "도보 이동 짧은 곳 선호, 한식 위주 식사"
+    },
+    {
+      "id": "m-jiho",
+      "name": "지호 (첫째)",
+      "role": "child",
+      "ageGroup": "child",
+      "color": "#059669",
+      "notes": "초등 2학년, 해양생물 및 레저 관심"
+    },
+    {
+      "id": "m-seoyun",
+      "name": "서윤 (둘째)",
+      "role": "child",
+      "ageGroup": "infant",
+      "color": "#d97706",
+      "notes": "5세 여아, 오후 2~3시 낮잠 & 유모차 필요"
+    }
+  ],
+  "schedule": [
+    {
+      "id": "s-1-1",
+      "dayIndex": 1,
+      "time": "10:30",
+      "title": "김포공항 출발 ✈️ 제주공항 도착",
+      "category": "transport",
+      "location": "제주국제공항",
+      "estimatedCost": 650000,
+      "isCompleted": true,
+      "familyTips": "공항 1층 3번 게이트 부근에서 유모차 대여 수령",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-1-2",
+      "dayIndex": 1,
+      "time": "12:00",
+      "title": "카니발 9인승 렌터카 인수",
+      "category": "transport",
+      "location": "제주공항 렌터카 셔틀 정류장",
+      "estimatedCost": 320000,
+      "isCompleted": true,
+      "familyTips": "카시트 2개(주니어 1, 베이비 1) 장착 상태 확인",
+      "assignedMembers": [
+        "m-dad"
+      ]
+    },
+    {
+      "id": "s-1-3",
+      "dayIndex": 1,
+      "time": "13:00",
+      "title": "점심: 자매국수 (고기국수 & 돔베고기)",
+      "category": "meal",
+      "location": "제주시 탑동로 11길 6",
+      "estimatedCost": 68000,
+      "isCompleted": true,
+      "familyTips": "테이블링 원격 줄서기 필수, 아기의자 구비됨",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-1-4",
+      "dayIndex": 1,
+      "time": "15:30",
+      "title": "숙소 체크인: 서귀포 오션뷰 패밀리 풀빌라",
+      "category": "stay",
+      "location": "서귀포시 안덕면",
+      "estimatedCost": 680000,
+      "isCompleted": true,
+      "familyTips": "할머니 1층 침실 배정, 아이들 수영복 미리 준비",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-1-5",
+      "dayIndex": 1,
+      "time": "18:30",
+      "title": "저녁: 칠돈가 서귀포점 (흑돼지 근고기)",
+      "category": "meal",
+      "location": "서귀포시 서홍동",
+      "estimatedCost": 140000,
+      "isCompleted": false,
+      "familyTips": "직원이 직접 구워주어 가족 식사에 편리함",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-2-1",
+      "dayIndex": 2,
+      "time": "09:30",
+      "title": "아침: 보말칼국수 & 보말죽 (온가족 영양식)",
+      "category": "meal",
+      "location": "서귀포시 중문관광로",
+      "estimatedCost": 55000,
+      "isCompleted": false,
+      "familyTips": "자극적이지 않아 어르신과 아이 모두 좋아하는 담백한 맛",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-2-2",
+      "dayIndex": 2,
+      "time": "11:00",
+      "title": "스누피 가든 (실내외 복합 힐링 가든)",
+      "category": "spot",
+      "location": "제주시 구좌읍 금백조로 930",
+      "estimatedCost": 78000,
+      "isCompleted": false,
+      "familyTips": "유모차 대여 무료 및 휠체어 완비, 야외 숲길 완만함",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-2-3",
+      "dayIndex": 2,
+      "time": "14:30",
+      "title": "카페: 블루보틀 제주 & 오름 쉼터",
+      "category": "rest",
+      "location": "구좌읍 번영로 2133-30",
+      "estimatedCost": 38000,
+      "isCompleted": false,
+      "familyTips": "서윤이 낮잠 시간 활용, 넓은 잔디밭에서 산책 가능",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-2-4",
+      "dayIndex": 2,
+      "time": "16:30",
+      "title": "제주 감귤 따기 체험 농원",
+      "category": "activity",
+      "location": "서귀포시 남원읍",
+      "estimatedCost": 45000,
+      "isCompleted": false,
+      "familyTips": "지호가 직접 딴 감귤 박스 포장해서 호텔로 가져오기",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-3-1",
+      "dayIndex": 3,
+      "time": "10:00",
+      "title": "아쿠아플라넷 제주 & 오션아레나 공연",
+      "category": "activity",
+      "location": "서귀포시 성산읍 섭지코지로 95",
+      "estimatedCost": 156000,
+      "isCompleted": false,
+      "familyTips": "실내 코스라 날씨 걱정 없음, 공연시간 11:10 사전 확인",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-3-2",
+      "dayIndex": 3,
+      "time": "13:00",
+      "title": "점심: 성산 해물뚝배기 & 갈치구이 정식",
+      "category": "meal",
+      "location": "성산읍 일출로",
+      "estimatedCost": 125000,
+      "isCompleted": false,
+      "familyTips": "할머니 좋아하시는 푸짐한 갈치조림과 뚝배기",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-3-3",
+      "dayIndex": 3,
+      "time": "15:30",
+      "title": "섭지코지 산책 & 바다 전망 사진 촬영",
+      "category": "spot",
+      "location": "성산읍 고성리",
+      "estimatedCost": 6000,
+      "isCompleted": false,
+      "familyTips": "바람이 불 수 있으니 얇은 겉옷 챙기기, 전기카트 탑승 고려",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-4-1",
+      "dayIndex": 4,
+      "time": "10:00",
+      "title": "동문재래시장 기념품 & 오메기떡 쇼핑",
+      "category": "spot",
+      "location": "제주시 이도1동 관덕로 14길",
+      "estimatedCost": 90000,
+      "isCompleted": false,
+      "familyTips": "주차장 혼잡하므로 공영주차장 이용, 택배 배송 가능",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma"
+      ]
+    },
+    {
+      "id": "s-4-2",
+      "dayIndex": 4,
+      "time": "12:30",
+      "title": "점심 식사: 제주 전복솥밥 명진전복",
+      "category": "meal",
+      "location": "구좌읍 해맞이해안로",
+      "estimatedCost": 75000,
+      "isCompleted": false,
+      "familyTips": "구수한 누룽지 숭늉이 있어 어르신 소화에 안성맞춤",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    },
+    {
+      "id": "s-4-3",
+      "dayIndex": 4,
+      "time": "15:00",
+      "title": "렌터카 반납 및 제주공항 탑승 수속",
+      "category": "transport",
+      "location": "제주공항",
+      "estimatedCost": 0,
+      "isCompleted": false,
+      "familyTips": "비행기 출발 1시간 30분 전 도착 완료",
+      "assignedMembers": [
+        "m-dad",
+        "m-mom",
+        "m-grandma",
+        "m-jiho",
+        "m-seoyun"
+      ]
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-1",
+      "date": "2026-10-10",
+      "dayIndex": 1,
+      "title": "제주 항공권 5인 왕복 발권",
+      "category": "transport",
+      "amount": 650000,
+      "payerId": "m-dad",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom"
+      ],
+      "notes": "대한항공 사전 특가 예약"
+    },
+    {
+      "id": "exp-2",
+      "date": "2026-10-15",
+      "dayIndex": 1,
+      "title": "서귀포 풀빌라 리조트 3박 예약",
+      "category": "stay",
+      "amount": 680000,
+      "payerId": "m-mom",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom"
+      ],
+      "notes": "3룸 패밀리 스위트 온수풀 포함"
+    },
+    {
+      "id": "exp-3",
+      "date": "2026-10-20",
+      "dayIndex": 1,
+      "title": "카니발 9인승 렌터카 & 카시트 2개",
+      "category": "transport",
+      "amount": 320000,
+      "payerId": "m-dad",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom"
+      ],
+      "notes": "완전자차 보험 포함"
+    },
+    {
+      "id": "exp-4",
+      "date": "2026-11-05",
+      "dayIndex": 1,
+      "title": "자매국수 점심 식사",
+      "category": "food",
+      "amount": 68000,
+      "payerId": "m-grandma",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom",
+        "m-grandma"
+      ],
+      "notes": "할머니가 쏘신 맛있는 점심 식사"
+    },
+    {
+      "id": "exp-5",
+      "date": "2026-11-05",
+      "dayIndex": 1,
+      "title": "제주 하나로마트 장보기 (음료, 과일, 아침거리)",
+      "category": "food",
+      "amount": 85000,
+      "payerId": "m-mom",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom"
+      ]
+    },
+    {
+      "id": "exp-6",
+      "date": "2026-11-06",
+      "dayIndex": 2,
+      "title": "스누피 가든 입장료 (성인3, 소인2)",
+      "category": "activity",
+      "amount": 78000,
+      "payerId": "m-dad",
+      "splitType": "equal",
+      "splitMemberIds": [
+        "m-dad",
+        "m-mom"
+      ],
+      "notes": "네이버 예약 10% 할인 적용"
+    }
+  ],
+  "packingList": [
+    {
+      "id": "pk-1",
+      "category": "essentials",
+      "name": "가족 신분증 / 가족관계증명서 (아이들용)",
+      "isPacked": true,
+      "assigneeId": "m-mom"
+    },
+    {
+      "id": "pk-2",
+      "category": "essentials",
+      "name": "운전면허증 (아빠 & 엄마)",
+      "isPacked": true,
+      "assigneeId": "m-dad"
+    },
+    {
+      "id": "pk-3",
+      "category": "medicine",
+      "name": "할머니 혈압약 및 상비약",
+      "isPacked": true,
+      "assigneeId": "m-grandma"
+    },
+    {
+      "id": "pk-4",
+      "category": "medicine",
+      "name": "어린이 종합감기약, 해열제, 소화제",
+      "isPacked": true,
+      "assigneeId": "m-mom"
+    },
+    {
+      "id": "pk-5",
+      "category": "kids",
+      "name": "휴대용 유모차 & 힙시트",
+      "isPacked": true,
+      "assigneeId": "m-dad"
+    },
+    {
+      "id": "pk-6",
+      "category": "kids",
+      "name": "지호/서윤 수영복 & 방수 기저귀 & 튜브",
+      "isPacked": false,
+      "assigneeId": "m-mom"
+    },
+    {
+      "id": "pk-7",
+      "category": "clothing",
+      "name": "일교차 대비 가디건 & 바람막이",
+      "isPacked": false,
+      "assigneeId": "m-mom"
+    },
+    {
+      "id": "pk-8",
+      "category": "electronics",
+      "name": "스마트폰 고속 충전기 & 보조배터리 2개",
+      "isPacked": true,
+      "assigneeId": "m-dad"
+    },
+    {
+      "id": "pk-9",
+      "category": "seniors",
+      "name": "할머니 편한 보행 운동화 & 덧신",
+      "isPacked": true,
+      "assigneeId": "m-grandma"
+    }
+  ]
+}
